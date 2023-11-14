@@ -1,5 +1,4 @@
 /* Course: SENG 513
-Due Date: November 6th 2023
 Assignment 3
 Name: Muhammad Taimur Rizwan
 UCID: 30078941
