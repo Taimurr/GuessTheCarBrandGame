@@ -5,78 +5,87 @@ Assignment 3
 Muhammad Taimur Rizwan
 UCID: 30078941 
 */
+
+/* Styling for the entire page body */
 body {
-    font-family: 'marker felt', fantasy;
-    background: linear-gradient(to bottom,#e9f1ef, #3C5556);
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
+    font-family: 'marker felt', fantasy; /* Set the font family for the entire page */
+    background: linear-gradient(to bottom, #e9f1ef, #3C5556); /* Apply a linear gradient background */
+    text-align: center; /* Center-align text */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-attachment: fixed; /* Fixed background attachment */
 }
 
+/* Styling for the game overview section */
 #game-overview {
-    border: 1px solid #143c38;
-    border-radius: 12px;
-    font-size: 1.1rem;
-    width: 60%; 
-    text-align: center;
-    margin: 2% auto 0 auto; /* Center 2% relative to top of page. Center horizontally by setting left and right margins to "auto" */
-    display: block; /* block-level element */
-    letter-spacing: 0.5px;
+    border: 1px solid #143c38; /* Border style */
+    border-radius: 12px; /* Border radius for rounded corners */
+    font-size: 1.1rem; /* Font size */
+    width: 60%; /* Set the width of the element */
+    text-align: center; /* Center-align text */
+    margin: 2% auto 0 auto; /* Center the element 2% from the top and horizontally */
+    display: block; /* Display as a block-level element */
+    letter-spacing: 0.5px; /* Letter spacing */
 }
 
+/* Styling for the user interaction section */
 #user-interaction {
-    font-size: 1.1rem;
+    font-size: 1.1rem; /* Font size */
 }
 
-
+/* Styling for input elements */
 input {
-    margin: 10px;
-    padding: 5px;
-    width: 50px;
+    margin: 10px; /* Margin for spacing */
+    padding: 5px; /* Padding for content spacing */
+    width: 50px; /* Set the width of the input */
 }
+
+/* Styling for the letter input field */
 #letter-input {
-    border-radius: 12px;
-    background-color: #143c38;
-    color: #e9f1ef;
-    font-size: 1.1rem;
-    font-family: 'marker felt', fantasy;
-
+    border-radius: 12px; /* Border radius for rounded corners */
+    background-color: #143c38; /* Background color */
+    color: #e9f1ef; /* Text color */
+    font-size: 1.1rem; /* Font size */
+    font-family: 'marker felt', fantasy; /* Font family */
 }
 
+/* Styling for buttons */
 button {
-    padding: 10px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    margin-top: 10px;
-    background-color: #143c38;
-    color: #e9f1ef;
-    border-radius: 12px;
-    font-family: 'marker felt', fantasy;
-    letter-spacing: 1.5px;
+    padding: 10px; /* Padding for content spacing */
+    font-size: 1.1rem; /* Font size */
+    cursor: pointer; /* Set cursor to pointer */
+    margin-top: 10px; /* Margin from the top */
+    background-color: #143c38; /* Background color */
+    color: #e9f1ef; /* Text color */
+    border-radius: 12px; /* Border radius for rounded corners */
+    font-family: 'marker felt', fantasy; /* Font family */
+    letter-spacing: 1.5px; /* Letter spacing */
 }
 
+/* Hover effect for buttons */
 button:hover {
-    background-color: #555;
+    background-color: #555; /* Change background color on hover */
 }
 
+/* Styling for the word display section */
 #word-display {
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 24px; /* Font size */
+    margin: 20px 0; /* Margin top and bottom */
 }
 
+/* Styling for the hangman figure section */
 #hangman-figure {
-    margin-top: 20px; 
+    margin-top: 20px; /* Margin from the top */
 }
 
+/* Styling for the current player indicator */
 #current-player {
-    font-size: 1.1rem;
-    color: red;
+    font-size: 1.1rem; /* Font size */
+    color: red; /* Text color */
 }
 
+/* Styling for the incorrect guesses count */
 #incorrect-guesses {
-    font-size: 1.1rem;
-    color: red;
+    font-size: 1.1rem; /* Font size */
+    color: red; /* Text color */
 }
-
-
